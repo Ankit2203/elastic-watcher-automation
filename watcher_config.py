@@ -79,7 +79,7 @@ MAIL_TEMP = { 'email': {
     }
 }
 
-INPUT_FILE = 'prog/INPUT/watcher_automation_input.xlsm'
+INPUT_FILE = 'INPUT/watcher_automation_input.xlsm'
 
 CONDITION = {
             "ctx.payload.hits.total" : {}
@@ -94,8 +94,8 @@ COMPARATOR = {
 'not equals to': 'not_eq'
 }
 
-RESPONSE_SHEET = 'prog/RECORDS/RESPONSE/'
+RESPONSE_SHEET = 'RECORDS/RESPONSE/'
 
-MASTER_SHEET = 'prog/RECORDS/elastic_watcher_master.xlsx'
+MASTER_SHEET = 'RECORDS/elastic_watcher_master.xlsx'
 
-INPUT_FILE_MASTER_COPY = 'prog/RECORDS/watcher_automation_input.xlsm'
+INPUT_FILE_MASTER_COPY = 'RECORDS/watcher_automation_input.xlsm'
